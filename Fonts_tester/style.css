@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: antiquewhite;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  color: black;
+}
+header {
+  max-width: 1200px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin: 0px auto;
+  padding: 20px;
+}
+.container {
+  max-width: 1200px;
+  background-color: white;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+h1 {
+  padding-bottom: 20px;
+}
+.container section .content {
+  padding: 20px 0;
+  font-size: 1rem;
+}
+.sans_serif {
+  font-family: 'Raleway', sans-serif;
+  font-size: larger;
+  padding: 20px;
+  color: rgb(9, 9, 214);
+}
+.sans_serif .content {
+  color: rgb(0, 0, 0);
+}
+.serif {
+  font-family: 'Nanum Myeongjo', serif;
+  color: #990808;
+  font-size: larger;
+  padding: 20px;
+}
+.serif .content {
+  color: black;
+}
+.display {
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+  padding: 20px;
+  padding: 20px;
+  color: rgb(183, 0, 255);
+  background-color: rgb(246, 255, 163);
+}
+.display .content {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(0, 0, 0);
+}
+.display p {
+  color: black;
+}
+.handwriting {
+  font-family: 'Pacifico', cursive;
+  color: #4d1c1c;
+  background-color: wheat;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+.handwriting .content {
+  font-family: 'Raleway', sans-serif;
+}
+.monospace {
+  color: rgb(174, 53, 255);
+  font-family: 'JetBrains Mono', monospace;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+.monospace .content {
+  color: rgb(217, 255, 0);
+  background: black;
+  border: 20px solid black;
+}
